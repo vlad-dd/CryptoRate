@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;600&family=Lora:wght@500&display=swap');
+body {
+  margin: 0 0;
+}
+
+
+.main_parent {
+  margin: 0;
+  width:  100%;
+  
+
+}
+
+.parent_block {
+  margin-top: 0;
+  padding: 0; 
+  height: 500px;
+}
+
+.header_logo {
+  padding: 15px;
+  display: inline-block;
+  font-size: 5.5vw;
+  font-weight: 900;
+  color: white;
+  margin-left: 10%;
+}
+
+.background {
+  height: 100%;
+  background-image: url('https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  top: 0;
+}
+
+.info_block {
+  padding: 400px;
+  margin-top: 0px;
+  padding: 400px;
+}
+
+.box_container {
+  background-color: burlywood;
+}
+
+.card_block {
+  /* border: 1px solid gainsboro; */
+  display: inline-block;
+  border-radius: 10px;
+  margin: 20px;
+  /* background-color: white ; */
+}
+
+.card_info {
+
+  padding: 13px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 69px;
+  margin: 30px;
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: azure;
+}
+
+.info {
+  margin: 0 auto;
+}
+
+.name {
+  margin-left: 40%;
+  margin-top: 10%;
+  color: cornsilk;
+  font-size: 1.3rem;
+}
+
+.data_block {
+  background: linear-gradient(90deg, rgba(58,53,133,1) 18%, rgba(75,26,105,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.data_info {
+  color: khaki ;
+  font-size: 1.2rem;
+}
+
+.data_info_block {
+  margin: 1px;
+}
+
+.video_data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+}
+
+.iframe_block {
+  margin: 8%;
+  margin-left: 15%;
+  width: 350px;
+  height: 200px;
+  
+}
+
+.video_block {
+  background: linear-gradient(90deg, rgba(23,20,50,1) 39%, rgba(60,49,129,1) 79%, rgba(50,41,107,1) 90%, rgba(55,51,120,1) 100%, rgba(75,26,105,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.title_block {
+  padding: 25px;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(23,20,50,1) 0%, rgba(20,16,41,1) 0%, rgba(60,49,129,1) 9%, rgba(33,27,69,1) 100%, rgba(55,51,120,1) 100%, rgba(75,26,105,1) 100%, rgba(0,212,255,1) 100%);
+  color: aliceblue;
+  font-size: 2.1rem;
+  font-weight: 800;
+}
+
+.green {
+  color: springgreen;
+}
+
+.red {
+  color: red;
+}
+
+.company {
+  display: inline-block;
+  
+  
+ 
+}
+
+.company_block {
+  padding: 30px;
+  margin-left: 25px;
+  margin-top: 70px;
+  
+  
+}
+
+.company_img {
+  height: 140px;
+}
+
+.company_div {
+  background: linear-gradient(90deg, rgba(58,53,133,1) 18%, rgba(75,26,105,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.footer {
+  
+
+}
+
+.footer_block {
+  padding: 25px;
+  background: linear-gradient(90deg, rgba(58,53,133,1) 18%, rgba(75,26,105,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.social_networks_img {
+  display: inline;
+}
+
+.social_network {
+  height: 35px;
+  margin-left: 23%;
+  cursor: pointer;
+}
